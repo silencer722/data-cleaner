@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+
+# Local datasets and backups
+input/*.csv
+input/*.csv~
+
+# Generated outputs
+output/*.csv
+output/data_quality_report.txt
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
